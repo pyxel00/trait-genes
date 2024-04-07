@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Couldn't find a way to add spectrum traits(jogger, chemical fascination etc) -->
+
+	<GeneDef Name="TG_TraitGeneBase" Abstract="True">
+		<defName>TG_TraitGeneBase</defName>
+		<!-- Inbred icon as a place holder -->
+		<iconPath>UI/Icons/Genes/Gene_Inbred</iconPath>
+		<displayCategory>TG_TraitsCategory</displayCategory>
+		<cangenerateInGeneSet>true</cangenerateInGeneSet>
+		<removeOnRedress>true</removeOnRedress>
+		<passOnDirectly>false</passOnDirectly>
+		<biostatCpx>0</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_nudist</defName>
+		<label>nudist</label>
+		<description>Adds the nudist trait.</description>
+		<biostatMet>+1</biostatMet>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<forcedTraits>
+			<li>Nudist</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_bloodlust</defName>
+		<label>bloodlust</label>
+		<description>Adds the bloodlust trait.</description>
+		<biostatMet>+2</biostatMet>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<forcedTraits>
+			<li>Bloodlust</li>
+		</forcedTraits>
+	</GeneDef>
+	
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_kind</defName>
+		<label>kind</label>
+		<description>Adds the kind trait.</description>
+		<biostatMet>-1</biostatMet>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<forcedTraits>
+			<li>Kind</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_psychopath</defName>
+		<label>psychopath</label>
+		<description>Adds the psychopath trait.</description>
+		<biostatMet>+1</biostatMet>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<forcedTraits>
+			<li>Psychopath</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_cannibal</defName>
+		<label>cannibal</label>
+		<description>Adds the cannibal trait.</description>
+		<biostatMet>+2</biostatMet>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<forcedTraits>
+			<li>Cannibal</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_abrasive</defName>
+		<label>abrasive</label>
+		<description>Adds the abrasive trait.</description>
+		<biostatMet>+2</biostatMet>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<forcedTraits>
+			<li>Abrasive</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_toosmart</defName>
+		<label>toosmart</label>
+		<description>Adds the toosmart trait.</description>
+		<biostatMet>0</biostatMet>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<forcedTraits>
+			<li>TooSmart</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_brawler</defName>
+		<label>brawler</label>
+		<description>Adds the brawler trait.</description>
+		<biostatMet>+2</biostatMet>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<forcedTraits>
+			<li>Brawler</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_masochist</defName>
+		<label>masochist</label>
+		<description>Adds the masochist trait.</description>
+		<biostatMet>+1</biostatMet>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<forcedTraits>
+			<li>Masochist</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_nightowl</defName>
+		<label>night owl</label>
+		<description>Adds the night owl trait.</description>
+		<biostatMet>0</biostatMet>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<forcedTraits>
+			<li>NightOwl</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_greedy</defName>
+		<label>greedy</label>
+		<description>Adds the greedy trait.</description>
+		<biostatMet>+3</biostatMet>
+		<displayOrderInCategory>11</displayOrderInCategory>
+		<forcedTraits>
+			<li>Greedy</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_jealous</defName>
+		<label>jealous</label>
+		<description>Adds the jealous trait.</description>
+		<biostatMet>+2</biostatMet>
+		<displayOrderInCategory>12</displayOrderInCategory>
+		<forcedTraits>
+			<li>Jealous</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_ascetic</defName>
+		<label>ascetic</label>
+		<description>Adds the ascetic trait.</description>
+		<biostatMet>-1</biostatMet>
+		<displayOrderInCategory>13</displayOrderInCategory>
+		<forcedTraits>
+			<li>Ascetic</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_gay</defName>
+		<label>gay</label>
+		<description>Adds the gay trait.</description>
+		<biostatMet>0</biostatMet>
+		<displayOrderInCategory>14</displayOrderInCategory>
+		<forcedTraits>
+			<li>Gay</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_bisexual</defName>
+		<label>bisexual</label>
+		<description>Adds the bisexual trait.</description>
+		<biostatMet>0</biostatMet>
+		<displayOrderInCategory>15</displayOrderInCategory>
+		<forcedTraits>
+			<li>Bisexual</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_asexual</defName>
+		<label>asexual</label>
+		<description>Adds the asexual trait.</description>
+		<biostatMet>0</biostatMet>
+		<displayOrderInCategory>16</displayOrderInCategory>
+		<forcedTraits>
+			<li>Asexual</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_annoyingvoice</defName>
+		<label>annoying voice</label>
+		<description>Adds the annoying voice trait.</description>
+		<biostatMet>+2</biostatMet>
+		<displayOrderInCategory>17</displayOrderInCategory>
+		<forcedTraits>
+			<li>AnnoyingVoice</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_creepybreathing</defName>
+		<label>creepy breathing</label>
+		<description>Adds the creepy breathing trait.</description>
+		<biostatMet>+2</biostatMet>
+		<displayOrderInCategory>18</displayOrderInCategory>
+		<forcedTraits>
+			<li>CreepyBreathing</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_pyromaniac</defName>
+		<label>pyromaniac</label>
+		<description>Adds the pyromaniac trait.</description>
+		<biostatMet>+3</biostatMet>
+		<displayOrderInCategory>19</displayOrderInCategory>
+		<forcedTraits>
+			<li>Pyromaniac</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_wimp</defName>
+		<label>wimp</label>
+		<description>Adds the wimp trait.</description>
+		<biostatMet>+1</biostatMet>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<forcedTraits>
+			<li>Wimp</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_nimble</defName>
+		<label>nimble</label>
+		<description>Adds the nimble trait.</description>
+		<biostatMet>-2</biostatMet>
+		<displayOrderInCategory>21</displayOrderInCategory>
+		<forcedTraits>
+			<li>Nimble</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_fastlearner</defName>
+		<label>fast learner</label>
+		<description>Adds the fast learner trait.</description>
+		<biostatMet>-2</biostatMet>
+		<displayOrderInCategory>22</displayOrderInCategory>
+		<forcedTraits>
+			<li>FastLearner</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_slowlearner</defName>
+		<label>slow learner</label>
+		<description>Adds the slow learner trait.</description>
+		<biostatMet>+2</biostatMet>
+		<displayOrderInCategory>23</displayOrderInCategory>
+		<forcedTraits>
+			<li>SlowLearner</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_undergrounder</defName>
+		<label>undergrounder</label>
+		<description>Adds the undergrounder trait.</description>
+		<biostatMet>0</biostatMet>
+		<displayOrderInCategory>24</displayOrderInCategory>
+		<forcedTraits>
+			<li>Undergrounder</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_transhumanist</defName>
+		<label>transhumanist</label>
+		<description>Adds the transhumanist trait.</description>
+		<biostatMet>-1</biostatMet>
+		<displayOrderInCategory>25</displayOrderInCategory>
+		<forcedTraits>
+			<li>Transhumanist</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_bodypurist</defName>
+		<label>body purist</label>
+		<description>Adds the body purist trait.</description>
+		<biostatMet>+1</biostatMet>
+		<displayOrderInCategory>26</displayOrderInCategory>
+		<forcedTraits>
+			<li>BodyPurist</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_dislikesmen</defName>
+		<label>misandrist</label>
+		<description>Adds the misandrist trait.</description>
+		<biostatMet>+2</biostatMet>
+		<displayOrderInCategory>27</displayOrderInCategory>
+		<forcedTraits>
+			<li>DislikesMen</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_dislikeswomen</defName>
+		<label>misogynist</label>
+		<description>Adds the misogynist trait.</description>
+		<biostatMet>+2</biostatMet>
+		<displayOrderInCategory>28</displayOrderInCategory>
+		<forcedTraits>
+			<li>DislikesWomen</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_greatmemory</defName>
+		<label>great memory</label>
+		<description>Adds the great memory trait.</description>
+		<biostatMet>-2</biostatMet>
+		<displayOrderInCategory>29</displayOrderInCategory>
+		<forcedTraits>
+			<li>GreatMemory</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_tough</defName>
+		<label>tough</label>
+		<description>Adds the tough trait.</description>
+		<biostatMet>-3</biostatMet>
+		<displayOrderInCategory>30</displayOrderInCategory>
+		<forcedTraits>
+			<li>Tough</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_torturedartist</defName>
+		<label>tortured artist</label>
+		<description>Adds the tortured artist trait.</description>
+		<biostatMet>0</biostatMet>
+		<displayOrderInCategory>31</displayOrderInCategory>
+		<forcedTraits>
+			<li>TorturedArtist</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_gourmand</defName>
+		<label>gourmand</label>
+		<description>Adds the gourmand trait.</description>
+		<biostatMet>0</biostatMet>
+		<displayOrderInCategory>32</displayOrderInCategory>
+		<forcedTraits>
+			<li>Gourmand</li>
+		</forcedTraits>
+	</GeneDef>
+
+	<GeneDef ParentName="TG_TraitGeneBase">
+		<defName>TG_quicksleeper</defName>
+		<label>quick sleeper</label>
+		<description>Adds the quick sleeper trait.</description>
+		<biostatMet>-1</biostatMet>
+		<displayOrderInCategory>33</displayOrderInCategory>
+		<forcedTraits>
+			<li>QuickSleeper</li>
+		</forcedTraits>
+	</GeneDef>
+</Defs>
