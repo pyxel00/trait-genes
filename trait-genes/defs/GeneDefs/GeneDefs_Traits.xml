@@ -22,7 +22,9 @@
 		<biostatMet>+1</biostatMet>
 		<displayOrderInCategory>2</displayOrderInCategory>
 		<forcedTraits>
-			<li>Nudist</li>
+			<li>
+				<def>Nudist</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -33,7 +35,9 @@
 		<biostatMet>+2</biostatMet>
 		<displayOrderInCategory>3</displayOrderInCategory>
 		<forcedTraits>
-			<li>Bloodlust</li>
+			<li>
+				<def>Bloodlust</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 	
@@ -44,7 +48,9 @@
 		<biostatMet>-1</biostatMet>
 		<displayOrderInCategory>4</displayOrderInCategory>
 		<forcedTraits>
-			<li>Kind</li>
+			<li>
+				<def>Kind</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -55,7 +61,9 @@
 		<biostatMet>+1</biostatMet>
 		<displayOrderInCategory>4</displayOrderInCategory>
 		<forcedTraits>
-			<li>Psychopath</li>
+			<li>
+				<def>Psychopath</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -66,7 +74,9 @@
 		<biostatMet>+2</biostatMet>
 		<displayOrderInCategory>5</displayOrderInCategory>
 		<forcedTraits>
-			<li>Cannibal</li>
+			<li>
+				<def>Cannibal</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -77,7 +87,9 @@
 		<biostatMet>+2</biostatMet>
 		<displayOrderInCategory>6</displayOrderInCategory>
 		<forcedTraits>
-			<li>Abrasive</li>
+			<li>
+				<def>Abrasive</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -88,7 +100,9 @@
 		<biostatMet>0</biostatMet>
 		<displayOrderInCategory>7</displayOrderInCategory>
 		<forcedTraits>
-			<li>TooSmart</li>
+			<li>
+				<def>TooSmart</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -99,7 +113,9 @@
 		<biostatMet>+2</biostatMet>
 		<displayOrderInCategory>8</displayOrderInCategory>
 		<forcedTraits>
-			<li>Brawler</li>
+			<li>
+				<def>Brawler</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -110,7 +126,9 @@
 		<biostatMet>+1</biostatMet>
 		<displayOrderInCategory>9</displayOrderInCategory>
 		<forcedTraits>
-			<li>Masochist</li>
+			<li>
+				<def>Masochist</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -121,7 +139,9 @@
 		<biostatMet>0</biostatMet>
 		<displayOrderInCategory>10</displayOrderInCategory>
 		<forcedTraits>
-			<li>NightOwl</li>
+			<li>
+				<def>NightOwl</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -132,7 +152,9 @@
 		<biostatMet>+3</biostatMet>
 		<displayOrderInCategory>11</displayOrderInCategory>
 		<forcedTraits>
-			<li>Greedy</li>
+			<li>
+				<def>Greedy</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -143,7 +165,9 @@
 		<biostatMet>+2</biostatMet>
 		<displayOrderInCategory>12</displayOrderInCategory>
 		<forcedTraits>
-			<li>Jealous</li>
+			<li>
+				<def>Jealous</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -154,7 +178,9 @@
 		<biostatMet>-1</biostatMet>
 		<displayOrderInCategory>13</displayOrderInCategory>
 		<forcedTraits>
-			<li>Ascetic</li>
+			<li>
+				<def>Ascetic</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -165,7 +191,9 @@
 		<biostatMet>0</biostatMet>
 		<displayOrderInCategory>14</displayOrderInCategory>
 		<forcedTraits>
-			<li>Gay</li>
+			<li>
+				<def>Gay</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -176,7 +204,9 @@
 		<biostatMet>0</biostatMet>
 		<displayOrderInCategory>15</displayOrderInCategory>
 		<forcedTraits>
-			<li>Bisexual</li>
+			<li>
+				<def>Bisexual</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -187,7 +217,9 @@
 		<biostatMet>0</biostatMet>
 		<displayOrderInCategory>16</displayOrderInCategory>
 		<forcedTraits>
-			<li>Asexual</li>
+			<li>
+				<def>Asexual</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -198,7 +230,9 @@
 		<biostatMet>+2</biostatMet>
 		<displayOrderInCategory>17</displayOrderInCategory>
 		<forcedTraits>
-			<li>AnnoyingVoice</li>
+			<li>
+				<def>AnnoyingVoice</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -209,7 +243,9 @@
 		<biostatMet>+2</biostatMet>
 		<displayOrderInCategory>18</displayOrderInCategory>
 		<forcedTraits>
-			<li>CreepyBreathing</li>
+			<li>
+				<def>CreepyBreathing</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -220,7 +256,9 @@
 		<biostatMet>+3</biostatMet>
 		<displayOrderInCategory>19</displayOrderInCategory>
 		<forcedTraits>
-			<li>Pyromaniac</li>
+			<li>
+				<def>Pyromaniac</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -231,7 +269,9 @@
 		<biostatMet>+1</biostatMet>
 		<displayOrderInCategory>20</displayOrderInCategory>
 		<forcedTraits>
-			<li>Wimp</li>
+			<li>
+				<def>Wimp</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -242,7 +282,9 @@
 		<biostatMet>-2</biostatMet>
 		<displayOrderInCategory>21</displayOrderInCategory>
 		<forcedTraits>
-			<li>Nimble</li>
+			<li>
+				<def>Nimble</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -253,7 +295,9 @@
 		<biostatMet>-2</biostatMet>
 		<displayOrderInCategory>22</displayOrderInCategory>
 		<forcedTraits>
-			<li>FastLearner</li>
+			<li>
+				<def>FastLearner</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -264,7 +308,9 @@
 		<biostatMet>+2</biostatMet>
 		<displayOrderInCategory>23</displayOrderInCategory>
 		<forcedTraits>
-			<li>SlowLearner</li>
+			<li>
+				<def>SlowLearner</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -275,7 +321,9 @@
 		<biostatMet>0</biostatMet>
 		<displayOrderInCategory>24</displayOrderInCategory>
 		<forcedTraits>
-			<li>Undergrounder</li>
+			<li>
+				<def>Undergrounder</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -286,7 +334,9 @@
 		<biostatMet>-1</biostatMet>
 		<displayOrderInCategory>25</displayOrderInCategory>
 		<forcedTraits>
-			<li>Transhumanist</li>
+			<li>
+				<def>Transhumanist</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -297,7 +347,9 @@
 		<biostatMet>+1</biostatMet>
 		<displayOrderInCategory>26</displayOrderInCategory>
 		<forcedTraits>
-			<li>BodyPurist</li>
+			<li>
+				<def>BodyPurist</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -308,7 +360,9 @@
 		<biostatMet>+2</biostatMet>
 		<displayOrderInCategory>27</displayOrderInCategory>
 		<forcedTraits>
-			<li>DislikesMen</li>
+			<li>
+				<def>DislikesMen</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -319,7 +373,9 @@
 		<biostatMet>+2</biostatMet>
 		<displayOrderInCategory>28</displayOrderInCategory>
 		<forcedTraits>
-			<li>DislikesWomen</li>
+			<li>
+				<def>DislikesWomen</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -330,7 +386,9 @@
 		<biostatMet>-2</biostatMet>
 		<displayOrderInCategory>29</displayOrderInCategory>
 		<forcedTraits>
-			<li>GreatMemory</li>
+			<li>
+				<def>GreatMemory</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -341,7 +399,9 @@
 		<biostatMet>-3</biostatMet>
 		<displayOrderInCategory>30</displayOrderInCategory>
 		<forcedTraits>
-			<li>Tough</li>
+			<li>
+				<def>Tough</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -352,7 +412,9 @@
 		<biostatMet>0</biostatMet>
 		<displayOrderInCategory>31</displayOrderInCategory>
 		<forcedTraits>
-			<li>TorturedArtist</li>
+			<li>
+				<def>TorturedArtist</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -363,7 +425,9 @@
 		<biostatMet>0</biostatMet>
 		<displayOrderInCategory>32</displayOrderInCategory>
 		<forcedTraits>
-			<li>Gourmand</li>
+			<li>
+				<def>Gourmand</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 
@@ -374,7 +438,9 @@
 		<biostatMet>-1</biostatMet>
 		<displayOrderInCategory>33</displayOrderInCategory>
 		<forcedTraits>
-			<li>QuickSleeper</li>
+			<li>
+				<def>QuickSleeper</def>
+			</li>
 		</forcedTraits>
 	</GeneDef>
 </Defs>
