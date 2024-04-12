@@ -8,7 +8,7 @@
 		<!-- Inbred icon as a place holder -->
 		<iconPath>UI/Icons/Genes/Gene_Inbred</iconPath>
 		<displayCategory>TG_TraitsCategory</displayCategory>
-		<cangenerateInGeneSet>true</cangenerateInGeneSet>
+		<canGenerateInGeneSet>true</canGenerateInGeneSet>
 		<removeOnRedress>true</removeOnRedress>
 		<passOnDirectly>false</passOnDirectly>
 		<biostatCpx>0</biostatCpx>
